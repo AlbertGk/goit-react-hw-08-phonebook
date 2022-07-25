@@ -19,7 +19,7 @@ export const App = () => {
       <Suspense fallback={<Loader type="spokes" color="#3f72b5" />}>
         <Routes>
           <Route
-            path="/"
+            path=""
             element={<ProtectedRoute isOnlyForNotAuthenticated={true} />}
           >
             <Route path="registration" element={<RegistrationForm />} />
