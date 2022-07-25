@@ -20,7 +20,7 @@ export default store;
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/goit-react-hw-08-phonebook">
         <App />
       </BrowserRouter>
     </Provider>
